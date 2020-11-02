@@ -60,7 +60,7 @@ dataset
 
 Here you can check the training accuracy,loss and testing accuracy,loss in output and also in the file writtern in dataset folder(results_train.txt,results_test.txt) which will be generated after the training starts
 
-> If you want to resume the training, you can switch the resume status to True in the train.py and set the path of the saved model file, for further information you can check the original paper's github code
+> If you want to resume the training, you can switch the resume status to True in the train.py and set the path of the saved model file, for further information you can check the original paper's github code ```train.py```
 
 ## Inferencing
 1. build the class index map(using dataset.class_to_idx method), or you can directly use the file classes.txt for mapping the model's output to real car brand name
