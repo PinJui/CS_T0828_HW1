@@ -1,9 +1,15 @@
-- [CS_T0828_HW1](#cs-t0828-hw1)
-  * [Data Preparation](#data-preparation)
-  
 # CS_T0828_HW1
 
 Stanford Cars Dataset(Brand classification challenge)
+
+## Contents
+
+- [Reference](#reference)
+- [Data Preparation](#data-preparation)
+- [Training](#training)
+- [Inferencing](#inferencing)
+
+## Reference
 
 Using the ECCV'20 paper
 
