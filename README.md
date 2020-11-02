@@ -10,6 +10,7 @@ Stanford Cars Dataset(Brand classification)
   year={2020}
 }
 ```
+>
 
 ## Data Preparation
 Download the given dataset and reorganize the structure as below:
