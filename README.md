@@ -61,7 +61,7 @@ dataset
 Here you can check the training accuracy,loss and testing accuracy,loss in output and also in the file writtern in dataset folder(results_train.txt,results_test.txt) which will be generated after the training starts
 
 ## Inferencing
-1. build the class_to_idx map, or u can directly use the file classes.txt for mapping the model's output to real car brand name
+1. build the class index map(using dataset.class_to_idx method), or u can directly use the file classes.txt for mapping the model's output to real car brand name
 2. load the model ```model.pth```, the attached file has been pre-trained for 19 epochs and reaches 99.8% acc in training and 93.47% in validation
 3. batchly feed the testing data in given dataset to model and map the model's output to corresponding class name mentioned in step1 and write into prediction.csv file
 4. upload the predicted file to kaggle!
