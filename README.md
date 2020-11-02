@@ -3,9 +3,10 @@
   
 # CS_T0828_HW1
 Stanford Cars Dataset(Brand classification)
+Using the ECCV'20 paper
+**Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches**'s method
 
-> Referencing the paper 
-> ECCV 2020 paper
+> Referencing the paper
 ```
 @InProceedings{du2020fine,
   title={Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches},
@@ -13,9 +14,32 @@ Stanford Cars Dataset(Brand classification)
   booktitle = {European Conference on Computer Vision},
   year={2020}
  } 
-```
+ ```
 
 ## Data Preparation
 Download the given dataset and reorganize the structure as below:
+```
+dataset
+├── train
+│   ├── Acura Integra Type R 2001
+|   |      ├── 000406.jpg
+|   |      ├── 000xxx.jpg
+|   |      └── ...
+│   ├── Acura RL Sedan 2012
+|   |      ├── 000091.jpg
+|   |      ├── 000xxx.jpg
+|   |      └── ...
+│   └── ...
+└── test
+    ├── Acura Integra Type R 2001
+    |      ├── 000416.jpg
+    |      ├── 000xxx.jpg
+    |      └── ...
+    ├── Acura RL Sedan 2012
+    |      ├── 000101.jpg
+    |      ├── 000xxx.jpg
+    |      └── ...
+    └── ...
+```
 
 
