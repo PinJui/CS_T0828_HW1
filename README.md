@@ -15,7 +15,6 @@ Using the ECCV'20 paper
 
 **Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches**'s method
 
-> Referencing the paper
 ```
 @InProceedings{du2020fine,
   title={Fine-Grained Visual Classification via Progressive Multi-Granularity Training of Jigsaw Patches},
