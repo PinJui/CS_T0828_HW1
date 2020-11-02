@@ -53,8 +53,8 @@ dataset
 
 ## Training
 1. create your working directory and run command ```git clone https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training.git```
-2. put the organized training dataset into the cloned folder
-3. change the store_name in train.py to your dataset folder name and the desired number of epochs
+2. put the organized training dataset into the cloned folder(folder name *PMG-Progressive-Multi-Granularity-Training*)
+3. change the store_name in train.py to your dataset folder name and change the desired number of epochs
 3. run command ```cd your_working_directory/PMG-Progressive-Multi-Granularity-Training```
 4. run command ```python train.py```
 
@@ -64,6 +64,6 @@ Here you can check the training accuracy,loss and testing accuracy,loss in outpu
 
 ## Inferencing
 1. build the class index map(using dataset.class_to_idx method), or you can directly use the file classes.txt for mapping the model's output to real car brand name
-2. load the model ```model.pth```, the attached file has been pre-trained for 19 epochs and reaches 99.8% acc in training and 93.47% in validation
+2. load the model from ```model.pth```(generated in dataset/ while training)
 3. batchly feed the testing data in given dataset to model and map the model's output to corresponding class name mentioned in step1 and write into prediction.csv file
 4. upload the predicted file to kaggle!
