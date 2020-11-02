@@ -52,7 +52,7 @@ dataset
 ***Be careful with the class name with / inside***
 
 ## Training
-1. create your working directory and run command ```git clone https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training.git```
+1. create your working directory and put the organized training dataset in to the directory and run command ```git clone https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training.git```
 2. change the store_name in train.py to your dataset directory name and the desired number of epochs
 3. run command ```cd your_working_dir```
 4. run command ```python train.py```
